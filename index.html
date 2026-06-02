@@ -1,31 +1,93 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>հհ dot հայ</title>
-  <meta name="description" content="Private counsel for founders and families; by introduction only.">
-  <meta name="robots" content="noindex, nofollow">
-  <meta property="og:title" content="հհ dot հայ">
-  <meta property="og:description" content="Private counsel for founders and families; by introduction only.">
-  <meta property="og:type" content="website">
-  <link rel="icon" type="image/svg+xml" href="/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/site/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ՀՀ.ՀԱՅ - Private Counsel</title>
+    <!-- Подключаем классический Serif шрифт для английского и армянского -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Noto+Serif+Armenian:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #070707; /* Глубокий, почти черный цвет */
+            color: #d1d1d1;
+            font-family: 'Playfair Display', 'Noto Serif Armenian', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2.6rem; /* Уменьшенный размер */
+            font-weight: 600; /* Жирный шрифт, как просил */
+            letter-spacing: 0.12em; /* Увеличенный межбуквенный интервал для эстетики */
+            margin: 0 0 4rem 0;
+            color: #ffffff;
+        }
+
+        .subheading {
+            font-size: 1.05rem; /* Лаконичный, мелкий текст */
+            font-weight: 400;
+            max-width: 500px;
+            line-height: 1.9;
+            margin: 0;
+            color: #9a9a9a; /* Приглушенный цвет для второстепенного текста */
+            letter-spacing: 0.05em;
+        }
+
+        .name {
+            font-size: 1rem;
+            font-weight: 400;
+            margin: 6rem 0 1.5rem 0;
+            letter-spacing: 0.06em;
+            color: #7a7a7a;
+        }
+
+        .email {
+            font-size: 0.95rem;
+            font-weight: 400;
+            margin: 0;
+            letter-spacing: 0.08em;
+        }
+
+        .email a {
+            text-decoration: none;
+            color: #7a7a7a;
+            transition: color 0.3s ease;
+        }
+
+        .email a:hover {
+            color: #ffffff; /* Подсветка при наведении */
+        }
+    </style>
 </head>
 <body>
-  <main class="vault" data-testid="main-vault">
-    <div class="vault-content">
-      <h1 class="identifier" data-testid="text-identifier">հհ dot հայ</h1>
-      
-      <p class="tagline" data-testid="text-tagline">Private counsel for owners and families; by introduction only.</p>
-      
-      <p class="name" data-testid="text-name">Davit Sargsyan</p>
-      
-      <a href="mailto:davit@հհ.հայ" class="contact" data-testid="link-email">davit@հհ.հայ</a>
+    <div class="main-content">
+        <!-- Жирный заголовок -->
+        <h1>ՀՀ dot ՀԱՅ</h1>
+        
+        <!-- Оригинальный текст f.uk -->
+        <p class="subheading">
+            Private counsel for owners and families; by<br>
+            introduction only.
+        </p>
+        
+        <!-- Твое имя -->
+        <p class="name">Davit Sargsyan</p>
+        
+        <!-- Твой email на уникальном домене -->
+        <p class="email"><a href="mailto:davit@հհ.հայ">davit@հհ.հայ</a></p>
     </div>
-  </main>
 </body>
 </html>
